@@ -3,14 +3,16 @@ package ganti
 import "fmt"
 
 func Switch() {
-	names := "Muharafi Dalilah"
+	names := "Muharafi"
 
-	switch names {
-	case "Muharafi":
+	switch {
+	case names == "Muharafi":
 		fmt.Println("hello Muharafi")
 		fmt.Println("hello Muharafi")
-	case "Muhammad":
+	case names == "Muhammad":
 		fmt.Println("hello Muhammad")
+		fmt.Println("hello Muhammad")
+	case len(names) > 3 && names != "Muharafi":
 		fmt.Println("hello Muhammad")
 	default: 
 		fmt.Println("hello, boleh kenalan?")

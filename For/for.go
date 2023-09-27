@@ -10,9 +10,9 @@ func For() {
 	}
 
 	slice := []string{"Muharafi", "Dalilah"}
-
+	
 	for i := 0; i < len(slice); i++ { 
-	fmt.Println(slice[i])
+	fmt.Println(slice[i]);
 	}
 
 	for i, value := range slice {

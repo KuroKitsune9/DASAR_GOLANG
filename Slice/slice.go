@@ -3,7 +3,7 @@ package slice
 import "fmt"
 
 func Slice() {
-	var months = [...]string{
+	var months = []string{
 		"January",
         "February",
         "March",
@@ -18,10 +18,11 @@ func Slice() {
         "December",
 }
 
-	var slices1 = months[4:7]
+	var slices1 = months[5:7]
 	fmt.Println(slices1)
 	fmt.Println(len(slices1))
-	fmt.Println(cap(slices1))
+	fmt.Println(cap(months))
+	fmt.Println(slices1[7])
 
 	// months[5] = "Diubah"
 	// fmt.Println(slices1)

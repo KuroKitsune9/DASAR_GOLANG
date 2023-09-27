@@ -5,7 +5,11 @@ package main
 // import simbol "belajar_golang/Simbol"
 // import slice "belajar_golang/Slice"
 // import antarwajah "belajar_golang/Empty_Interface"
-import Strukt "belajar_golang/Struct"
+// import Strukt "belajar_golang/Struct"
+// import closure "belajar_golang/Clorsure"
+// import Sprintf "belajar_golang/Sprint"
+// import peta "belajar_golang/Map"
+import ganti "belajar_golang/Switch"
 
 
 func main() {
@@ -15,5 +19,9 @@ func main() {
 	// simbol.Simbol()
 	// slice.Slice()
 	// antarwajah.Interface()
-	Strukt.Struct()
+	// Strukt.Struct()
+	// closure.Closure()
+	// Sprintf.Sprint()
+	// peta.Map()
+	ganti.Switch()
 }
